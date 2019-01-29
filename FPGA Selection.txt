@@ -13,3 +13,15 @@ Pin count:
 
 Features:
   - FPGA must include at least one PLL
+
+
+Chosen FPGA:
+  - Intel MAX 10 10M02SCE144C8G
+    - 2000, 4-input logic cells
+    - 101 GPIO pins
+    - 16 18X18 multipliers
+    - 2 PLLs
+    - 108kB memory
+  - 12.12 NZD (single quantity)
+  - https://www.digikey.co.nz/product-detail/en/intel/10M02SCE144C8G/544-3098-ND/5284822
+  -
