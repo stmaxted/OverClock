@@ -1,0 +1,15 @@
+Selecting which Altera FPGA to use. I will be using Altera as I am familiar with.
+
+Package:
+  - Something I can solder by hand (IE no BGA packages)
+  - QFN or DFN are ok but undesirable
+  - Thus QFP is likely
+
+Pin count:
+  + 7 GPIO pins per digit
+  + 4 digits (2 for hours, 2 for minutes)
+  + 4 Switches (up and down for minutes and hours)
+  = 32 GPIO pins minimum
+
+Features:
+  - FPGA must include at least one PLL
