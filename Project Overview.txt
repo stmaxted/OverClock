@@ -1,0 +1,23 @@
+Description:
+  Open Source clock powered by FPGA using 7 segment displays to display time.
+  Called the OverClock because it will use a PLL within the FPGA to generate accurate timing for
+  the clock, this is absolute overkill hence the name.
+
+FPGA:
+  - Something from Altera because I am familiar with their tools.
+
+PCB CAD:
+  - KiCAD
+
+Enclosure:
+  - OnShape
+
+FPGA Toolchain:
+  - Quartus Prime
+
+Goals:
+  - Total BOM cost under 100 NZD
+  - Learn how to use PLLs (NOT clock dividing)
+  - Time to be set via switches (UART header to be added and added as a nice to have)
+  - Power input via USB-C (maybe USB-PD)
+  - 
