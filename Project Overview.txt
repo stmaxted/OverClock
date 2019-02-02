@@ -20,4 +20,10 @@ Goals:
   - Learn how to use PLLs (NOT clock dividing)
   - Time to be set via switches (UART header to be added and added as a nice to have)
   - Power input via USB-C (maybe USB-PD)
-  - 
+  -
+
+
+FPGA Power Supply Requirements:
+  - 0.778W Max
+  - 220mA max transient current
+  - 3 or 3.3V

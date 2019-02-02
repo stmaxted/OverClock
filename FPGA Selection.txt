@@ -24,4 +24,5 @@ Chosen FPGA:
     - 108kB memory
   - 12.12 NZD (single quantity)
   - https://www.digikey.co.nz/product-detail/en/intel/10M02SCE144C8G/544-3098-ND/5284822
-  -
+  - Single Supply
+  - https://www.digikey.co.nz/product-detail/en/intel/10M04SCE144C8G/544-3054-ND/5044228 (If I run out of Logic Elements)
