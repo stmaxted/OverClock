@@ -27,3 +27,7 @@ FPGA Power Supply Requirements:
   - 0.778W Max
   - 220mA max transient current
   - 3 or 3.3V
+
+Current Calcs:
+  - 20mA per GPIO
+  - 7 Segments * 4 Digits * 20mA = 560mA
