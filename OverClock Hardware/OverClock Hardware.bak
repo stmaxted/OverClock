@@ -1,0 +1,153 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7350 7500 0    50   ~ 0
+Overclock
+Text Notes 10600 7650 0    50   ~ 0
+1.0
+$Comp
+L Maxted_Libs:USB_C_Plug J1
+U 1 1 5C5D049A
+P 1050 2050
+F 0 "J1" H 700 2800 50  0000 R CNN
+F 1 "USB_C_Plug" H 1050 2700 50  0000 R CNN
+F 2 "" H 1700 2400 50  0001 C CNN
+F 3 "" H 1700 2400 50  0001 C CNN
+	1    1050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C5D056E
+P 600 3500
+F 0 "#PWR01" H 600 3250 50  0001 C CNN
+F 1 "GND" H 605 3327 50  0000 C CNN
+F 2 "" H 600 3500 50  0001 C CNN
+F 3 "" H 600 3500 50  0001 C CNN
+	1    600  3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3400 1400 3400
+Connection ~ 700  3400
+Wire Wire Line
+	700  3400 600  3400
+Connection ~ 800  3400
+Wire Wire Line
+	800  3400 700  3400
+Connection ~ 900  3400
+Wire Wire Line
+	900  3400 800  3400
+Connection ~ 1000 3400
+Wire Wire Line
+	1000 3400 900  3400
+Connection ~ 1100 3400
+Wire Wire Line
+	1100 3400 1000 3400
+Connection ~ 1200 3400
+Wire Wire Line
+	1200 3400 1100 3400
+Connection ~ 1300 3400
+Wire Wire Line
+	1300 3400 1200 3400
+Connection ~ 1400 3400
+Wire Wire Line
+	1400 3400 1300 3400
+Wire Wire Line
+	600  3500 600  3400
+Connection ~ 600  3400
+$Comp
+L power:VBUS #PWR02
+U 1 1 5C5D0688
+P 900 700
+F 0 "#PWR02" H 900 550 50  0001 C CNN
+F 1 "VBUS" H 915 873 50  0000 C CNN
+F 2 "" H 900 700 50  0001 C CNN
+F 3 "" H 900 700 50  0001 C CNN
+	1    900  700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 750  1100 750 
+Connection ~ 1000 750 
+Wire Wire Line
+	1000 750  900  750 
+Connection ~ 1100 750 
+Wire Wire Line
+	1100 750  1000 750 
+Wire Wire Line
+	900  700  900  750 
+Connection ~ 900  750 
+NoConn ~ 1700 1200
+NoConn ~ 1700 1300
+NoConn ~ 1700 1500
+NoConn ~ 1700 1600
+NoConn ~ 1700 1750
+NoConn ~ 1700 1850
+NoConn ~ 1700 1950
+NoConn ~ 1700 2050
+NoConn ~ 1700 2150
+NoConn ~ 1700 2250
+NoConn ~ 1700 2450
+NoConn ~ 1700 2550
+NoConn ~ 1700 2650
+NoConn ~ 1700 2750
+NoConn ~ 1700 2850
+NoConn ~ 1700 2950
+$Comp
+L Maxted_Libs:DSM7TA56106T D1
+U 1 1 5C5D5E26
+P 6100 4600
+F 0 "D1" H 5700 5400 50  0000 R CNN
+F 1 "DSM7TA56106T" H 6300 3950 50  0000 R CNN
+F 2 "" H 6400 4600 50  0001 C CNN
+F 3 "" H 6400 4600 50  0001 C CNN
+	1    6100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Maxted_Libs:DSM7TA56106T D2
+U 1 1 5C5D5EA2
+P 9700 3500
+F 0 "D2" H 9300 4300 50  0000 R CNN
+F 1 "DSM7TA56106T" H 9800 2800 50  0000 R CNN
+F 2 "" H 10000 3500 50  0001 C CNN
+F 3 "" H 10000 3500 50  0001 C CNN
+	1    9700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Maxted_Libs:DSM7TA56106T D4
+U 1 1 5C5D5F15
+P 6050 6550
+F 0 "D4" H 5650 7350 50  0000 R CNN
+F 1 "DSM7TA56106T" H 6150 5900 50  0000 R CNN
+F 2 "" H 6350 6550 50  0001 C CNN
+F 3 "" H 6350 6550 50  0001 C CNN
+	1    6050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Maxted_Libs:DSM7TA56106T D3
+U 1 1 5C5D5F73
+P 9800 5500
+F 0 "D3" H 9400 6300 50  0000 R CNN
+F 1 "DSM7TA56106T" H 9900 4800 50  0000 R CNN
+F 2 "" H 10100 5500 50  0001 C CNN
+F 3 "" H 10100 5500 50  0001 C CNN
+	1    9800 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

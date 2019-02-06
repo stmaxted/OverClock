@@ -31,3 +31,16 @@ FPGA Power Supply Requirements:
 Current Calcs:
   - 20mA per GPIO
   - 7 Segments * 4 Digits * 20mA = 560mA
+
+LED Displays:
+  - https://www.digikey.co.nz/product-detail/en/visual-communications-company-vcc/DSM7TA56106T/DSM7TA56106TCT-ND/8030584
+  - Typical Forward Voltage: 3.1V (3.3v System voltage works nicely)
+  - 3.3v / 20mA = 165 Ohms
+  - No resistor packs in stock with Digikey so using:
+  - https://www.digikey.co.nz/product-detail/en/panasonic-electronic-components/EXB-2HV181JV/Y1181CT-ND/285372
+
+
+
+Power Supply Topology:
+  - Buck Converter 5-12V in down to 3.3V
+  - LDO from 3.3V to 3V to power FPGA
