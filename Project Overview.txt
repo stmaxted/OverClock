@@ -44,3 +44,5 @@ LED Displays:
 Power Supply Topology:
   - Buck Converter 5-12V in down to 3.3V
   - LDO from 3.3V to 3V to power FPGA
+  - Chosen Buck Converter:
+  - http://www.ti.com/product/TLV62569
