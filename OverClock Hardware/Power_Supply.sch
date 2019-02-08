@@ -329,4 +329,120 @@ Wire Wire Line
 Wire Wire Line
 	7150 1400 7000 1400
 Connection ~ 7000 1400
+$Comp
+L Maxted_Libs:10M02SCE144 U?
+U 1 1 5C66E890
+P 6950 3900
+F 0 "U?" H 7928 4021 50  0000 L CNN
+F 1 "10M02SCE144" H 7928 3930 50  0000 L CNN
+F 2 "Maxted Libs:QFP-144_EPAD_20x20_Pitch0.5mm" H 7950 4700 50  0001 C CNN
+F 3 "" V 7300 4050 50  0001 C CNN
+	1    6950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C66E982
+P 6250 4300
+F 0 "#PWR?" H 6250 4050 50  0001 C CNN
+F 1 "GND" H 6255 4127 50  0000 C CNN
+F 2 "" H 6250 4300 50  0001 C CNN
+F 3 "" H 6250 4300 50  0001 C CNN
+	1    6250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4300 7550 4300
+Connection ~ 6250 4300
+Connection ~ 6350 4300
+Wire Wire Line
+	6350 4300 6250 4300
+Connection ~ 6450 4300
+Wire Wire Line
+	6450 4300 6350 4300
+Connection ~ 6550 4300
+Wire Wire Line
+	6550 4300 6450 4300
+Connection ~ 6650 4300
+Wire Wire Line
+	6650 4300 6550 4300
+Connection ~ 6750 4300
+Wire Wire Line
+	6750 4300 6650 4300
+Connection ~ 6850 4300
+Wire Wire Line
+	6850 4300 6750 4300
+Connection ~ 6950 4300
+Wire Wire Line
+	6950 4300 6850 4300
+Connection ~ 7050 4300
+Wire Wire Line
+	7050 4300 6950 4300
+Connection ~ 7150 4300
+Wire Wire Line
+	7150 4300 7050 4300
+Connection ~ 7250 4300
+Wire Wire Line
+	7250 4300 7150 4300
+Connection ~ 7350 4300
+Wire Wire Line
+	7350 4300 7250 4300
+Connection ~ 7450 4300
+Wire Wire Line
+	7450 4300 7350 4300
+Connection ~ 7550 4300
+Wire Wire Line
+	7550 4300 7450 4300
+Wire Wire Line
+	7800 3350 7700 3350
+Connection ~ 6200 3350
+Wire Wire Line
+	6200 3350 6100 3350
+Connection ~ 6300 3350
+Wire Wire Line
+	6300 3350 6200 3350
+Connection ~ 6400 3350
+Wire Wire Line
+	6400 3350 6300 3350
+Connection ~ 6500 3350
+Wire Wire Line
+	6500 3350 6400 3350
+Connection ~ 6700 3350
+Wire Wire Line
+	6700 3350 6500 3350
+Connection ~ 6800 3350
+Wire Wire Line
+	6800 3350 6700 3350
+Connection ~ 6900 3350
+Wire Wire Line
+	6900 3350 6800 3350
+Connection ~ 7000 3350
+Wire Wire Line
+	7000 3350 6900 3350
+Connection ~ 7100 3350
+Wire Wire Line
+	7100 3350 7000 3350
+Connection ~ 7200 3350
+Wire Wire Line
+	7200 3350 7100 3350
+Connection ~ 7300 3350
+Wire Wire Line
+	7300 3350 7200 3350
+Connection ~ 7400 3350
+Wire Wire Line
+	7400 3350 7300 3350
+Connection ~ 7500 3350
+Wire Wire Line
+	7500 3350 7400 3350
+Connection ~ 7600 3350
+Wire Wire Line
+	7600 3350 7500 3350
+Connection ~ 7700 3350
+Wire Wire Line
+	7700 3350 7600 3350
+Text GLabel 5850 3350 0    50   Input ~ 0
++3V
+Wire Wire Line
+	5850 3350 6100 3350
+Connection ~ 6100 3350
 $EndSCHEMATC
