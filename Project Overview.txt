@@ -48,3 +48,7 @@ Power Supply Topology:
   - http://www.ti.com/product/TLV62569
   - Chosen LDO:
   - https://www.diodes.com/products/power-management/low-dropout-regulators/part/AP7365
+
+  Decoupling Capacitor strategy:
+    - One 10nF Capacitor per Vcc pin (as close as possible to each pin)
+    - One large (470uF+) Capacitor on the board
