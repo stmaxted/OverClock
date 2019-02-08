@@ -35,14 +35,16 @@ Current Calcs:
 LED Displays:
   - https://www.digikey.co.nz/product-detail/en/visual-communications-company-vcc/DSM7TA56106T/DSM7TA56106TCT-ND/8030584
   - Typical Forward Voltage: 3.1V (3.3v System voltage works nicely)
-  - 3.3v / 20mA = 165 Ohms
+  - 4v / 20mA = 200 Ohms
   - No resistor packs in stock with Digikey so using:
-  - https://www.digikey.co.nz/product-detail/en/panasonic-electronic-components/EXB-2HV181JV/Y1181CT-ND/285372
+  - https://www.digikey.co.nz/product-detail/en/panasonic-electronic-components/EXB-2HV221JV/Y1221CT-ND/285373
 
 
 
 Power Supply Topology:
-  - Buck Converter 5-12V in down to 3.3V
-  - LDO from 3.3V to 3V to power FPGA
+  - Buck Converter 5-12V in down to 4V
+  - LDO from 4V to 3V to power FPGA
   - Chosen Buck Converter:
   - http://www.ti.com/product/TLV62569
+  - Chosen LDO:
+  - https://www.diodes.com/products/power-management/low-dropout-regulators/part/AP7365
