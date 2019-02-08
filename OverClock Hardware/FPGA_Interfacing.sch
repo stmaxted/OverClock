@@ -377,11 +377,7 @@ Wire Wire Line
 Text GLabel 1350 5900 0    50   Input ~ 0
 +3V
 Wire Wire Line
-	3700 6700 3450 6700
-Wire Wire Line
-	2700 6600 3300 6600
-Wire Wire Line
-	2700 6500 3700 6500
+	2700 6500 3450 6500
 $Comp
 L Device:R_Small R?
 U 1 1 5C68AD28
@@ -405,17 +401,9 @@ F 3 "" H 3050 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 6800 3050 6800
-Wire Wire Line
 	3050 6800 3050 7050
-Connection ~ 3050 6800
-Wire Wire Line
-	3050 6800 3700 6800
 Wire Wire Line
 	3300 6600 3300 7050
-Connection ~ 3300 6600
-Wire Wire Line
-	3300 6600 3700 6600
 $Comp
 L Device:R_Small R?
 U 1 1 5C692EE8
@@ -440,14 +428,6 @@ F 3 "" H 3300 7250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 6700 3150 6350
-Connection ~ 3150 6700
-Wire Wire Line
-	3150 6700 2700 6700
-Wire Wire Line
-	3450 6700 3450 6350
-Connection ~ 3450 6700
-Wire Wire Line
-	3450 6700 3150 6700
 $Comp
 L Device:R_Small R?
 U 1 1 5C69923E
@@ -471,7 +451,7 @@ F 3 "~" H 3450 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 5900 3150 5900
+	1700 5900 2800 5900
 Wire Wire Line
 	3150 5900 3150 6150
 Connection ~ 1700 5900
@@ -518,4 +498,49 @@ Wire Notes Line style solid rgb(0, 0, 0)
 	5650 7150 4400 7150
 Wire Notes Line style solid rgb(0, 0, 0)
 	4400 7150 4400 6650
+$Comp
+L Device:C_Small C?
+U 1 1 5C6B33C4
+P 2800 6000
+F 0 "C?" H 2892 6046 50  0000 L CNN
+F 1 "100nF" H 2892 5955 50  0000 L CNN
+F 2 "" H 2800 6000 50  0001 C CNN
+F 3 "~" H 2800 6000 50  0001 C CNN
+	1    2800 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 5900
+Wire Wire Line
+	2800 5900 3150 5900
+Connection ~ 3300 6600
+Connection ~ 3050 6800
+Wire Wire Line
+	3050 6800 3700 6800
+Wire Wire Line
+	2700 6800 3050 6800
+Wire Wire Line
+	3300 6600 3700 6600
+Wire Wire Line
+	2700 6600 3300 6600
+Wire Wire Line
+	3150 6700 2700 6700
+Connection ~ 3150 6700
+$Comp
+L power:GND #PWR?
+U 1 1 5C6B34AA
+P 2800 6100
+F 0 "#PWR?" H 2800 5850 50  0001 C CNN
+F 1 "GND" H 2805 5927 50  0000 C CNN
+F 2 "" H 2800 6100 50  0001 C CNN
+F 3 "" H 2800 6100 50  0001 C CNN
+	1    2800 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6700 3700 6700
+Wire Wire Line
+	3450 6500 3450 6350
+Connection ~ 3450 6500
+Wire Wire Line
+	3450 6500 3700 6500
 $EndSCHEMATC
