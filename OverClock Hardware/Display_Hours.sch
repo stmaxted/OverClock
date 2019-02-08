@@ -1,0 +1,995 @@
+EESchema Schematic File Version 4
+LIBS:OverClock Hardware-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Maxted_Libs:DSM7TA56106T D?
+U 1 1 5C88C7D9
+P 14850 2050
+AR Path="/5C88C7D9" Ref="D?"  Part="1" 
+AR Path="/5C66B7E8/5C88C7D9" Ref="D?"  Part="1" 
+AR Path="/5C87E0ED/5C88C7D9" Ref="D?"  Part="1" 
+F 0 "D?" H 14450 2850 50  0000 R CNN
+F 1 "DSM7TA56106T" H 15050 1400 50  0000 R CNN
+F 2 "" H 15150 2050 50  0001 C CNN
+F 3 "" H 15150 2050 50  0001 C CNN
+	1    14850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 1050 14950 1050
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 5C88C7E2
+P 13900 2800
+AR Path="/5C88C7E2" Ref="RN?"  Part="1" 
+AR Path="/5C66B7E8/5C88C7E2" Ref="RN?"  Part="1" 
+AR Path="/5C87E0ED/5C88C7E2" Ref="RN?"  Part="1" 
+F 0 "RN?" V 13283 2800 50  0000 C CNN
+F 1 "R_Pack08" V 13374 2800 50  0000 C CNN
+F 2 "Maxted Libs:1506_Array" V 14375 2800 50  0001 C CNN
+F 3 "~" H 13900 2800 50  0001 C CNN
+F 4 "https://www.digikey.co.nz/product-detail/en/panasonic-electronic-components/EXB-2HV181JV/Y1181CT-ND/285372" V 13900 2800 50  0001 C CNN "Vendor"
+	1    13900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+4V #PWR?
+U 1 1 5C88C7E9
+P 14950 1050
+AR Path="/5C88C7E9" Ref="#PWR?"  Part="1" 
+AR Path="/5C66B7E8/5C88C7E9" Ref="#PWR?"  Part="1" 
+AR Path="/5C87E0ED/5C88C7E9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14950 900 50  0001 C CNN
+F 1 "+4V" H 14965 1223 50  0000 C CNN
+F 2 "" H 14950 1050 50  0001 C CNN
+F 3 "" H 14950 1050 50  0001 C CNN
+	1    14950 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 14950 1050
+Wire Wire Line
+	14200 2450 14100 2450
+Wire Wire Line
+	14100 2450 14100 2600
+Wire Wire Line
+	14200 2300 14000 2300
+Wire Wire Line
+	14000 2300 14000 2600
+Wire Wire Line
+	14200 2150 13900 2150
+Wire Wire Line
+	13900 2150 13900 2600
+Wire Wire Line
+	14200 2000 13800 2000
+Wire Wire Line
+	13800 2000 13800 2600
+Wire Wire Line
+	14200 1850 13700 1850
+Wire Wire Line
+	13700 1850 13700 2600
+Wire Wire Line
+	14200 1700 13600 1700
+Wire Wire Line
+	13600 1700 13600 2600
+Wire Wire Line
+	14200 1550 13500 1550
+Wire Wire Line
+	13500 1550 13500 2600
+Wire Wire Line
+	14100 3000 14100 3200
+Wire Wire Line
+	14100 3200 14700 3200
+Wire Wire Line
+	14150 3250 14000 3250
+Wire Wire Line
+	14000 3250 14000 3000
+Wire Wire Line
+	13900 3000 13900 3250
+Wire Wire Line
+	13900 3250 13600 3250
+Wire Wire Line
+	13800 3000 13800 3200
+Wire Wire Line
+	13800 3200 13050 3200
+Wire Wire Line
+	13700 3000 13700 3150
+Wire Wire Line
+	13700 3150 12500 3150
+Wire Wire Line
+	13600 3000 13600 3100
+Wire Wire Line
+	13600 3100 11950 3100
+Wire Wire Line
+	13500 3000 13500 3050
+Wire Wire Line
+	13500 3050 11400 3050
+Wire Wire Line
+	14200 3000 14200 3150
+Wire Wire Line
+	14200 3150 15300 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5C88C84E
+P 13200 4000
+AR Path="/5C66B7E8/5C88C84E" Ref="#PWR?"  Part="1" 
+AR Path="/5C87E0ED/5C88C84E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13200 3750 50  0001 C CNN
+F 1 "GND" H 13205 3827 50  0000 C CNN
+F 2 "" H 13200 4000 50  0001 C CNN
+F 3 "" H 13200 4000 50  0001 C CNN
+	1    13200 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 13200 4000
+Wire Wire Line
+	13200 4000 13600 4000
+Wire Wire Line
+	15300 3900 15300 4000
+Wire Wire Line
+	14700 3900 14700 4000
+Connection ~ 14700 4000
+Wire Wire Line
+	14700 4000 15300 4000
+Wire Wire Line
+	14150 3900 14150 4000
+Connection ~ 14150 4000
+Wire Wire Line
+	14150 4000 14700 4000
+Wire Wire Line
+	13600 3900 13600 4000
+Connection ~ 13600 4000
+Wire Wire Line
+	13600 4000 14150 4000
+Wire Wire Line
+	13050 3900 13050 4000
+Connection ~ 13050 4000
+Wire Wire Line
+	13050 4000 13200 4000
+Wire Wire Line
+	12500 3900 12500 4000
+Connection ~ 12500 4000
+Wire Wire Line
+	12500 4000 13050 4000
+Wire Wire Line
+	11950 3900 11950 4000
+Connection ~ 11950 4000
+Wire Wire Line
+	11950 4000 12500 4000
+Wire Wire Line
+	11400 3900 11400 4000
+Wire Wire Line
+	11400 4000 11950 4000
+$Comp
+L Device:R_Small R?
+U 1 1 5C88C86B
+P 11100 3600
+AR Path="/5C66B7E8/5C88C86B" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C88C86B" Ref="R?"  Part="1" 
+F 0 "R?" H 11159 3646 50  0000 L CNN
+F 1 "1K" H 11159 3555 50  0000 L CNN
+F 2 "" H 11100 3600 50  0001 C CNN
+F 3 "~" H 11100 3600 50  0001 C CNN
+	1    11100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C88C872
+P 11650 3600
+AR Path="/5C66B7E8/5C88C872" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C88C872" Ref="R?"  Part="1" 
+F 0 "R?" H 11709 3646 50  0000 L CNN
+F 1 "1K" H 11709 3555 50  0000 L CNN
+F 2 "" H 11650 3600 50  0001 C CNN
+F 3 "~" H 11650 3600 50  0001 C CNN
+	1    11650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C88C879
+P 12200 3600
+AR Path="/5C66B7E8/5C88C879" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C88C879" Ref="R?"  Part="1" 
+F 0 "R?" H 12259 3646 50  0000 L CNN
+F 1 "1K" H 12259 3555 50  0000 L CNN
+F 2 "" H 12200 3600 50  0001 C CNN
+F 3 "~" H 12200 3600 50  0001 C CNN
+	1    12200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C88C880
+P 12750 3600
+AR Path="/5C66B7E8/5C88C880" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C88C880" Ref="R?"  Part="1" 
+F 0 "R?" H 12809 3646 50  0000 L CNN
+F 1 "1K" H 12809 3555 50  0000 L CNN
+F 2 "" H 12750 3600 50  0001 C CNN
+F 3 "~" H 12750 3600 50  0001 C CNN
+	1    12750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C88C887
+P 13300 3600
+AR Path="/5C66B7E8/5C88C887" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C88C887" Ref="R?"  Part="1" 
+F 0 "R?" H 13359 3646 50  0000 L CNN
+F 1 "1K" H 13359 3555 50  0000 L CNN
+F 2 "" H 13300 3600 50  0001 C CNN
+F 3 "~" H 13300 3600 50  0001 C CNN
+	1    13300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C88C88E
+P 13850 3600
+AR Path="/5C66B7E8/5C88C88E" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C88C88E" Ref="R?"  Part="1" 
+F 0 "R?" H 13909 3646 50  0000 L CNN
+F 1 "1K" H 13909 3555 50  0000 L CNN
+F 2 "" H 13850 3600 50  0001 C CNN
+F 3 "~" H 13850 3600 50  0001 C CNN
+	1    13850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C88C895
+P 14400 3600
+AR Path="/5C66B7E8/5C88C895" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C88C895" Ref="R?"  Part="1" 
+F 0 "R?" H 14459 3646 50  0000 L CNN
+F 1 "1K" H 14459 3555 50  0000 L CNN
+F 2 "" H 14400 3600 50  0001 C CNN
+F 3 "~" H 14400 3600 50  0001 C CNN
+	1    14400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C88C89C
+P 15000 3600
+AR Path="/5C66B7E8/5C88C89C" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C88C89C" Ref="R?"  Part="1" 
+F 0 "R?" H 15059 3646 50  0000 L CNN
+F 1 "1K" H 15059 3555 50  0000 L CNN
+F 2 "" H 15000 3600 50  0001 C CNN
+F 3 "~" H 15000 3600 50  0001 C CNN
+	1    15000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 3500 11400 3500
+Wire Wire Line
+	11650 3500 11950 3500
+Wire Wire Line
+	12200 3500 12500 3500
+Wire Wire Line
+	12750 3500 13050 3500
+Wire Wire Line
+	13300 3500 13600 3500
+Wire Wire Line
+	13850 3500 14150 3500
+Wire Wire Line
+	14400 3500 14700 3500
+Wire Wire Line
+	15000 3500 15300 3500
+Wire Wire Line
+	11100 3700 11100 4150
+Wire Wire Line
+	11650 3700 11650 4250
+Wire Wire Line
+	11650 4250 11100 4250
+Wire Wire Line
+	12200 3700 12200 4350
+Wire Wire Line
+	12200 4350 11100 4350
+Wire Wire Line
+	12750 3700 12750 4450
+Wire Wire Line
+	12750 4450 11100 4450
+Wire Wire Line
+	13300 3700 13300 4550
+Wire Wire Line
+	13300 4550 11100 4550
+Wire Wire Line
+	13850 3700 13850 4650
+Wire Wire Line
+	13850 4650 11100 4650
+Wire Wire Line
+	14400 3700 14400 4750
+Wire Wire Line
+	14400 4750 11100 4750
+Wire Wire Line
+	15000 3700 15000 4850
+Wire Wire Line
+	15000 4850 11100 4850
+Wire Wire Line
+	15300 3150 15300 3500
+Wire Wire Line
+	14700 3200 14700 3500
+Wire Wire Line
+	14150 3250 14150 3500
+Wire Wire Line
+	13600 3250 13600 3500
+Wire Wire Line
+	13050 3200 13050 3500
+Wire Wire Line
+	12500 3150 12500 3500
+Wire Wire Line
+	11950 3100 11950 3500
+Wire Wire Line
+	11400 3050 11400 3500
+$Comp
+L Maxted_Libs:10M02SCE144 U?
+U 5 1 5C8C77E8
+P 10400 4700
+F 0 "U?" H 10100 5500 50  0000 L CNN
+F 1 "10M02SCE144" H 10000 4000 50  0000 L CNN
+F 2 "Maxted Libs:QFP-144_EPAD_20x20_Pitch0.5mm" H 11400 5500 50  0001 C CNN
+F 3 "" V 10750 4850 50  0001 C CNN
+	5    10400 4700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9600 3900 0    50   Input ~ 0
++3V
+$Comp
+L Maxted_Libs:DSM7TA56106T D?
+U 1 1 5C8E1826
+P 7750 6700
+AR Path="/5C8E1826" Ref="D?"  Part="1" 
+AR Path="/5C66B7E8/5C8E1826" Ref="D?"  Part="1" 
+AR Path="/5C87E0ED/5C8E1826" Ref="D?"  Part="1" 
+F 0 "D?" H 7350 7500 50  0000 R CNN
+F 1 "DSM7TA56106T" H 7950 6050 50  0000 R CNN
+F 2 "" H 8050 6700 50  0001 C CNN
+F 3 "" H 8050 6700 50  0001 C CNN
+	1    7750 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5700 7850 5700
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 5C8E182F
+P 6800 7450
+AR Path="/5C8E182F" Ref="RN?"  Part="1" 
+AR Path="/5C66B7E8/5C8E182F" Ref="RN?"  Part="1" 
+AR Path="/5C87E0ED/5C8E182F" Ref="RN?"  Part="1" 
+F 0 "RN?" V 6183 7450 50  0000 C CNN
+F 1 "R_Pack08" V 6274 7450 50  0000 C CNN
+F 2 "Maxted Libs:1506_Array" V 7275 7450 50  0001 C CNN
+F 3 "~" H 6800 7450 50  0001 C CNN
+F 4 "https://www.digikey.co.nz/product-detail/en/panasonic-electronic-components/EXB-2HV181JV/Y1181CT-ND/285372" V 6800 7450 50  0001 C CNN "Vendor"
+	1    6800 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+4V #PWR?
+U 1 1 5C8E1836
+P 7850 5700
+AR Path="/5C8E1836" Ref="#PWR?"  Part="1" 
+AR Path="/5C66B7E8/5C8E1836" Ref="#PWR?"  Part="1" 
+AR Path="/5C87E0ED/5C8E1836" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7850 5550 50  0001 C CNN
+F 1 "+4V" H 7865 5873 50  0000 C CNN
+F 2 "" H 7850 5700 50  0001 C CNN
+F 3 "" H 7850 5700 50  0001 C CNN
+	1    7850 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 5700
+Wire Wire Line
+	7100 7100 7000 7100
+Wire Wire Line
+	7000 7100 7000 7250
+Wire Wire Line
+	7100 6950 6900 6950
+Wire Wire Line
+	6900 6950 6900 7250
+Wire Wire Line
+	7100 6800 6800 6800
+Wire Wire Line
+	6800 6800 6800 7250
+Wire Wire Line
+	7100 6650 6700 6650
+Wire Wire Line
+	6700 6650 6700 7250
+Wire Wire Line
+	7100 6500 6600 6500
+Wire Wire Line
+	6600 6500 6600 7250
+Wire Wire Line
+	7100 6350 6500 6350
+Wire Wire Line
+	6500 6350 6500 7250
+Wire Wire Line
+	7100 6200 6400 6200
+Wire Wire Line
+	6400 6200 6400 7250
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C8E1875
+P 4750 8350
+AR Path="/5C66B7E8/5C8E1875" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C8E1875" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4956 8350 50  0000 L CNN
+F 1 "~" H 4956 8305 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 4950 8450 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 4750 8350 50  0001 C CNN
+	1    4750 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 7650 7000 7850
+Wire Wire Line
+	7000 7850 7600 7850
+Wire Wire Line
+	7050 7900 6900 7900
+Wire Wire Line
+	6900 7900 6900 7650
+Wire Wire Line
+	6800 7650 6800 7900
+Wire Wire Line
+	6800 7900 6500 7900
+Wire Wire Line
+	6700 7650 6700 7850
+Wire Wire Line
+	6700 7850 5950 7850
+Wire Wire Line
+	6600 7650 6600 7800
+Wire Wire Line
+	6600 7800 5400 7800
+Wire Wire Line
+	6500 7650 6500 7750
+Wire Wire Line
+	6500 7750 4850 7750
+Wire Wire Line
+	6400 7650 6400 7700
+Wire Wire Line
+	6400 7700 4300 7700
+Wire Wire Line
+	7100 7650 7100 7800
+Wire Wire Line
+	7100 7800 8200 7800
+$Comp
+L power:GND #PWR?
+U 1 1 5C8E1893
+P 6100 8650
+AR Path="/5C66B7E8/5C8E1893" Ref="#PWR?"  Part="1" 
+AR Path="/5C87E0ED/5C8E1893" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6100 8400 50  0001 C CNN
+F 1 "GND" H 6105 8477 50  0000 C CNN
+F 2 "" H 6100 8650 50  0001 C CNN
+F 3 "" H 6100 8650 50  0001 C CNN
+	1    6100 8650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 8650
+Wire Wire Line
+	6100 8650 6500 8650
+Wire Wire Line
+	8200 8550 8200 8650
+Wire Wire Line
+	7600 8550 7600 8650
+Connection ~ 7600 8650
+Wire Wire Line
+	7600 8650 8200 8650
+Wire Wire Line
+	7050 8550 7050 8650
+Connection ~ 7050 8650
+Wire Wire Line
+	7050 8650 7600 8650
+Wire Wire Line
+	6500 8550 6500 8650
+Connection ~ 6500 8650
+Wire Wire Line
+	6500 8650 7050 8650
+Wire Wire Line
+	5950 8550 5950 8650
+Connection ~ 5950 8650
+Wire Wire Line
+	5950 8650 6100 8650
+Wire Wire Line
+	5400 8550 5400 8650
+Connection ~ 5400 8650
+Wire Wire Line
+	5400 8650 5950 8650
+Wire Wire Line
+	4850 8550 4850 8650
+Connection ~ 4850 8650
+Wire Wire Line
+	4850 8650 5400 8650
+Wire Wire Line
+	4300 8550 4300 8650
+Wire Wire Line
+	4300 8650 4850 8650
+$Comp
+L Device:R_Small R?
+U 1 1 5C8E18B0
+P 4000 8250
+AR Path="/5C66B7E8/5C8E18B0" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C8E18B0" Ref="R?"  Part="1" 
+F 0 "R?" H 4059 8296 50  0000 L CNN
+F 1 "1K" H 4059 8205 50  0000 L CNN
+F 2 "" H 4000 8250 50  0001 C CNN
+F 3 "~" H 4000 8250 50  0001 C CNN
+	1    4000 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C8E18B7
+P 4550 8250
+AR Path="/5C66B7E8/5C8E18B7" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C8E18B7" Ref="R?"  Part="1" 
+F 0 "R?" H 4609 8296 50  0000 L CNN
+F 1 "1K" H 4609 8205 50  0000 L CNN
+F 2 "" H 4550 8250 50  0001 C CNN
+F 3 "~" H 4550 8250 50  0001 C CNN
+	1    4550 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C8E18BE
+P 5100 8250
+AR Path="/5C66B7E8/5C8E18BE" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C8E18BE" Ref="R?"  Part="1" 
+F 0 "R?" H 5159 8296 50  0000 L CNN
+F 1 "1K" H 5159 8205 50  0000 L CNN
+F 2 "" H 5100 8250 50  0001 C CNN
+F 3 "~" H 5100 8250 50  0001 C CNN
+	1    5100 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C8E18C5
+P 5650 8250
+AR Path="/5C66B7E8/5C8E18C5" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C8E18C5" Ref="R?"  Part="1" 
+F 0 "R?" H 5709 8296 50  0000 L CNN
+F 1 "1K" H 5709 8205 50  0000 L CNN
+F 2 "" H 5650 8250 50  0001 C CNN
+F 3 "~" H 5650 8250 50  0001 C CNN
+	1    5650 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C8E18CC
+P 6200 8250
+AR Path="/5C66B7E8/5C8E18CC" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C8E18CC" Ref="R?"  Part="1" 
+F 0 "R?" H 6259 8296 50  0000 L CNN
+F 1 "1K" H 6259 8205 50  0000 L CNN
+F 2 "" H 6200 8250 50  0001 C CNN
+F 3 "~" H 6200 8250 50  0001 C CNN
+	1    6200 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C8E18D3
+P 6750 8250
+AR Path="/5C66B7E8/5C8E18D3" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C8E18D3" Ref="R?"  Part="1" 
+F 0 "R?" H 6809 8296 50  0000 L CNN
+F 1 "1K" H 6809 8205 50  0000 L CNN
+F 2 "" H 6750 8250 50  0001 C CNN
+F 3 "~" H 6750 8250 50  0001 C CNN
+	1    6750 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C8E18DA
+P 7300 8250
+AR Path="/5C66B7E8/5C8E18DA" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C8E18DA" Ref="R?"  Part="1" 
+F 0 "R?" H 7359 8296 50  0000 L CNN
+F 1 "1K" H 7359 8205 50  0000 L CNN
+F 2 "" H 7300 8250 50  0001 C CNN
+F 3 "~" H 7300 8250 50  0001 C CNN
+	1    7300 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C8E18E1
+P 7900 8250
+AR Path="/5C66B7E8/5C8E18E1" Ref="R?"  Part="1" 
+AR Path="/5C87E0ED/5C8E18E1" Ref="R?"  Part="1" 
+F 0 "R?" H 7959 8296 50  0000 L CNN
+F 1 "1K" H 7959 8205 50  0000 L CNN
+F 2 "" H 7900 8250 50  0001 C CNN
+F 3 "~" H 7900 8250 50  0001 C CNN
+	1    7900 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 8150 4300 8150
+Wire Wire Line
+	4550 8150 4850 8150
+Wire Wire Line
+	5100 8150 5400 8150
+Wire Wire Line
+	5650 8150 5950 8150
+Wire Wire Line
+	6200 8150 6500 8150
+Wire Wire Line
+	6750 8150 7050 8150
+Wire Wire Line
+	7300 8150 7600 8150
+Wire Wire Line
+	7900 8150 8200 8150
+Wire Wire Line
+	4000 8350 4000 8800
+Wire Wire Line
+	4000 8800 3400 8800
+Connection ~ 4000 8350
+Wire Wire Line
+	4550 8350 4550 8900
+Wire Wire Line
+	4550 8900 3400 8900
+Wire Wire Line
+	5100 8350 5100 9000
+Wire Wire Line
+	5100 9000 3400 9000
+Wire Wire Line
+	5650 8350 5650 9100
+Wire Wire Line
+	5650 9100 3400 9100
+Wire Wire Line
+	6200 8350 6200 9200
+Wire Wire Line
+	6200 9200 3400 9200
+Wire Wire Line
+	6750 8350 6750 9300
+Wire Wire Line
+	6750 9300 3400 9300
+Wire Wire Line
+	7300 8350 7300 9400
+Wire Wire Line
+	7300 9400 3400 9400
+Wire Wire Line
+	7900 8350 7900 9500
+Wire Wire Line
+	7900 9500 3400 9500
+Wire Wire Line
+	8200 7800 8200 8150
+Wire Wire Line
+	7600 7850 7600 8150
+Wire Wire Line
+	7050 7900 7050 8150
+Wire Wire Line
+	6500 7900 6500 8150
+Wire Wire Line
+	5950 7850 5950 8150
+Wire Wire Line
+	5400 7800 5400 8150
+Wire Wire Line
+	4850 7750 4850 8150
+Wire Wire Line
+	4300 7700 4300 8150
+Connection ~ 4300 8150
+$Comp
+L Maxted_Libs:10M02SCE144 U?
+U 6 1 5C8EA7D2
+P 2800 9500
+F 0 "U?" H 3328 9653 50  0000 L CNN
+F 1 "10M02SCE144" H 3328 9562 50  0000 L CNN
+F 2 "Maxted Libs:QFP-144_EPAD_20x20_Pitch0.5mm" H 3800 10300 50  0001 C CNN
+F 3 "" V 3150 9650 50  0001 C CNN
+	6    2800 9500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 8400 2450 8500
+Wire Wire Line
+	2350 8400 2350 8500
+Wire Wire Line
+	2450 8400 2350 8400
+Connection ~ 2350 8400
+Text GLabel 1300 8400 0    50   Input ~ 0
++3V
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C90636A
+P 4200 8350
+AR Path="/5C66B7E8/5C90636A" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C90636A" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4406 8350 50  0000 L CNN
+F 1 "~" H 4406 8305 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 4400 8450 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 4200 8350 50  0001 C CNN
+	1    4200 8350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 8350
+Connection ~ 4850 8150
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C90F171
+P 5300 8350
+AR Path="/5C66B7E8/5C90F171" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C90F171" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5506 8350 50  0000 L CNN
+F 1 "~" H 5506 8305 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 5500 8450 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 5300 8350 50  0001 C CNN
+	1    5300 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C917E49
+P 5850 8350
+AR Path="/5C66B7E8/5C917E49" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C917E49" Ref="Q?"  Part="1" 
+F 0 "Q?" H 6056 8350 50  0000 L CNN
+F 1 "~" H 6056 8305 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 6050 8450 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 5850 8350 50  0001 C CNN
+	1    5850 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C920B1D
+P 6400 8350
+AR Path="/5C66B7E8/5C920B1D" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C920B1D" Ref="Q?"  Part="1" 
+F 0 "Q?" H 6606 8350 50  0000 L CNN
+F 1 "~" H 6606 8305 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 6600 8450 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 6400 8350 50  0001 C CNN
+	1    6400 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C9297F7
+P 6950 8350
+AR Path="/5C66B7E8/5C9297F7" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C9297F7" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7156 8350 50  0000 L CNN
+F 1 "~" H 7156 8305 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 7150 8450 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 6950 8350 50  0001 C CNN
+	1    6950 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C9327EF
+P 7500 8350
+AR Path="/5C66B7E8/5C9327EF" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C9327EF" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7706 8350 50  0000 L CNN
+F 1 "~" H 7706 8305 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 7700 8450 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 7500 8350 50  0001 C CNN
+	1    7500 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C93B4CB
+P 8100 8350
+AR Path="/5C66B7E8/5C93B4CB" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C93B4CB" Ref="Q?"  Part="1" 
+F 0 "Q?" H 8306 8350 50  0000 L CNN
+F 1 "~" H 8306 8305 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 8300 8450 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 8100 8350 50  0001 C CNN
+	1    8100 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C9448AF
+P 11300 3700
+AR Path="/5C66B7E8/5C9448AF" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C9448AF" Ref="Q?"  Part="1" 
+F 0 "Q?" H 11506 3700 50  0000 L CNN
+F 1 "~" H 11506 3655 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 11500 3800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 11300 3700 50  0001 C CNN
+	1    11300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C94D585
+P 11850 3700
+AR Path="/5C66B7E8/5C94D585" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C94D585" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12056 3700 50  0000 L CNN
+F 1 "~" H 12056 3655 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 12050 3800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 11850 3700 50  0001 C CNN
+	1    11850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C956257
+P 12400 3700
+AR Path="/5C66B7E8/5C956257" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C956257" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12606 3700 50  0000 L CNN
+F 1 "~" H 12606 3655 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 12600 3800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 12400 3700 50  0001 C CNN
+	1    12400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C95EF33
+P 12950 3700
+AR Path="/5C66B7E8/5C95EF33" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C95EF33" Ref="Q?"  Part="1" 
+F 0 "Q?" H 13156 3700 50  0000 L CNN
+F 1 "~" H 13156 3655 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 13150 3800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 12950 3700 50  0001 C CNN
+	1    12950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C967C0F
+P 13500 3700
+AR Path="/5C66B7E8/5C967C0F" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C967C0F" Ref="Q?"  Part="1" 
+F 0 "Q?" H 13706 3700 50  0000 L CNN
+F 1 "~" H 13706 3655 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 13700 3800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 13500 3700 50  0001 C CNN
+	1    13500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C9708ED
+P 14050 3700
+AR Path="/5C66B7E8/5C9708ED" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C9708ED" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14256 3700 50  0000 L CNN
+F 1 "~" H 14256 3655 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 14250 3800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 14050 3700 50  0001 C CNN
+	1    14050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C9795D9
+P 14600 3700
+AR Path="/5C66B7E8/5C9795D9" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C9795D9" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14806 3700 50  0000 L CNN
+F 1 "~" H 14806 3655 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 14800 3800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 14600 3700 50  0001 C CNN
+	1    14600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5C9822C1
+P 15200 3700
+AR Path="/5C66B7E8/5C9822C1" Ref="Q?"  Part="1" 
+AR Path="/5C87E0ED/5C9822C1" Ref="Q?"  Part="1" 
+F 0 "Q?" H 15406 3700 50  0000 L CNN
+F 1 "~" H 15406 3655 50  0001 L CNN
+F 2 "Maxted Libs:SOT-323" H 15400 3800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3J15FU" H 15200 3700 50  0001 C CNN
+	1    15200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C98C1FA
+P 1900 8500
+F 0 "C?" H 1992 8546 50  0000 L CNN
+F 1 "10nF" H 1992 8455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 8500 50  0001 C CNN
+F 3 "~" H 1900 8500 50  0001 C CNN
+	1    1900 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C98C3B4
+P 1550 8500
+F 0 "C?" H 1642 8546 50  0000 L CNN
+F 1 "10nF" H 1642 8455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1550 8500 50  0001 C CNN
+F 3 "~" H 1550 8500 50  0001 C CNN
+	1    1550 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 8400 1550 8400
+Connection ~ 1550 8400
+Wire Wire Line
+	1550 8400 1900 8400
+Connection ~ 1900 8400
+Wire Wire Line
+	1900 8400 2350 8400
+Wire Wire Line
+	1900 8600 1550 8600
+$Comp
+L power:GND #PWR?
+U 1 1 5C9A722E
+P 1550 8600
+F 0 "#PWR?" H 1550 8350 50  0001 C CNN
+F 1 "GND" H 1555 8427 50  0000 C CNN
+F 2 "" H 1550 8600 50  0001 C CNN
+F 3 "" H 1550 8600 50  0001 C CNN
+	1    1550 8600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 8600
+$Comp
+L Device:C_Small C?
+U 1 1 5C9A89C4
+P 9850 4000
+F 0 "C?" H 9942 4046 50  0000 L CNN
+F 1 "10nF" H 9942 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9850 4000 50  0001 C CNN
+F 3 "~" H 9850 4000 50  0001 C CNN
+	1    9850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9B1C90
+P 9850 4100
+F 0 "#PWR?" H 9850 3850 50  0001 C CNN
+F 1 "GND" H 9855 3927 50  0000 C CNN
+F 2 "" H 9850 4100 50  0001 C CNN
+F 3 "" H 9850 4100 50  0001 C CNN
+	1    9850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3900 9850 3900
+Connection ~ 9850 3900
+Wire Wire Line
+	9850 3900 10450 3900
+Connection ~ 5100 8350
+Connection ~ 5400 8150
+Connection ~ 5650 8350
+Connection ~ 5950 8150
+Connection ~ 6200 8350
+Connection ~ 6500 8150
+Connection ~ 6750 8350
+Connection ~ 7050 8150
+Connection ~ 7300 8350
+Connection ~ 7600 8150
+Connection ~ 7900 8350
+Connection ~ 8200 8150
+$EndSCHEMATC

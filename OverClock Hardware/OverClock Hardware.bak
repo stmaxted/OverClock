@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -29,5 +29,11 @@ S 3850 1400 1500 1300
 U 5C66B7E8
 F0 "FPGA Interfacing" 50
 F1 "FPGA_Interfacing.sch" 50
+$EndSheet
+$Sheet
+S 1650 4350 1400 1350
+U 5C87E0ED
+F0 "Display Hours" 50
+F1 "Display_Hours.sch" 50
 $EndSheet
 $EndSCHEMATC
