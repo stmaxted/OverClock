@@ -330,119 +330,119 @@ Connection ~ 7000 1400
 $Comp
 L Maxted_Libs:10M02SCE144 U3
 U 1 1 5C66E890
-P 6950 3900
-F 0 "U3" H 7928 4021 50  0000 L CNN
-F 1 "10M02SCE144" H 7928 3930 50  0000 L CNN
-F 2 "Maxted Libs:QFP-144_EPAD_20x20_Pitch0.5mm" H 7950 4700 50  0001 C CNN
-F 3 "" V 7300 4050 50  0001 C CNN
-	1    6950 3900
+P 1900 5700
+F 0 "U3" H 2878 5821 50  0000 L CNN
+F 1 "10M02SCE144" H 2878 5730 50  0000 L CNN
+F 2 "Maxted Libs:QFP-144_EPAD_20x20_Pitch0.5mm" H 2900 6500 50  0001 C CNN
+F 3 "" V 2250 5850 50  0001 C CNN
+	1    1900 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5C66E982
-P 6250 4300
-F 0 "#PWR05" H 6250 4050 50  0001 C CNN
-F 1 "GND" H 6255 4127 50  0000 C CNN
-F 2 "" H 6250 4300 50  0001 C CNN
-F 3 "" H 6250 4300 50  0001 C CNN
-	1    6250 4300
+P 1200 6100
+F 0 "#PWR05" H 1200 5850 50  0001 C CNN
+F 1 "GND" H 1205 5927 50  0000 C CNN
+F 2 "" H 1200 6100 50  0001 C CNN
+F 3 "" H 1200 6100 50  0001 C CNN
+	1    1200 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 4300 7550 4300
-Connection ~ 6250 4300
-Connection ~ 6350 4300
+	2600 6100 2500 6100
+Connection ~ 1200 6100
+Connection ~ 1300 6100
 Wire Wire Line
-	6350 4300 6250 4300
-Connection ~ 6450 4300
+	1300 6100 1200 6100
+Connection ~ 1400 6100
 Wire Wire Line
-	6450 4300 6350 4300
-Connection ~ 6550 4300
+	1400 6100 1300 6100
+Connection ~ 1500 6100
 Wire Wire Line
-	6550 4300 6450 4300
-Connection ~ 6650 4300
+	1500 6100 1400 6100
+Connection ~ 1600 6100
 Wire Wire Line
-	6650 4300 6550 4300
-Connection ~ 6750 4300
+	1600 6100 1500 6100
+Connection ~ 1700 6100
 Wire Wire Line
-	6750 4300 6650 4300
-Connection ~ 6850 4300
+	1700 6100 1600 6100
+Connection ~ 1800 6100
 Wire Wire Line
-	6850 4300 6750 4300
-Connection ~ 6950 4300
+	1800 6100 1700 6100
+Connection ~ 1900 6100
 Wire Wire Line
-	6950 4300 6850 4300
-Connection ~ 7050 4300
+	1900 6100 1800 6100
+Connection ~ 2000 6100
 Wire Wire Line
-	7050 4300 6950 4300
-Connection ~ 7150 4300
+	2000 6100 1900 6100
+Connection ~ 2100 6100
 Wire Wire Line
-	7150 4300 7050 4300
-Connection ~ 7250 4300
+	2100 6100 2000 6100
+Connection ~ 2200 6100
 Wire Wire Line
-	7250 4300 7150 4300
-Connection ~ 7350 4300
+	2200 6100 2100 6100
+Connection ~ 2300 6100
 Wire Wire Line
-	7350 4300 7250 4300
-Connection ~ 7450 4300
+	2300 6100 2200 6100
+Connection ~ 2400 6100
 Wire Wire Line
-	7450 4300 7350 4300
-Connection ~ 7550 4300
+	2400 6100 2300 6100
+Connection ~ 2500 6100
 Wire Wire Line
-	7550 4300 7450 4300
+	2500 6100 2400 6100
 Wire Wire Line
-	7800 3350 7700 3350
-Connection ~ 6200 3350
+	2750 5150 2650 5150
+Connection ~ 1150 5150
 Wire Wire Line
-	6200 3350 6100 3350
-Connection ~ 6300 3350
+	1150 5150 1050 5150
+Connection ~ 1250 5150
 Wire Wire Line
-	6300 3350 6200 3350
-Connection ~ 6400 3350
+	1250 5150 1150 5150
+Connection ~ 1350 5150
 Wire Wire Line
-	6400 3350 6300 3350
-Connection ~ 6500 3350
+	1350 5150 1250 5150
+Connection ~ 1450 5150
 Wire Wire Line
-	6500 3350 6400 3350
-Connection ~ 6700 3350
+	1450 5150 1350 5150
+Connection ~ 1650 5150
 Wire Wire Line
-	6700 3350 6500 3350
-Connection ~ 6800 3350
+	1650 5150 1450 5150
+Connection ~ 1750 5150
 Wire Wire Line
-	6800 3350 6700 3350
-Connection ~ 6900 3350
+	1750 5150 1650 5150
+Connection ~ 1850 5150
 Wire Wire Line
-	6900 3350 6800 3350
-Connection ~ 7000 3350
+	1850 5150 1750 5150
+Connection ~ 1950 5150
 Wire Wire Line
-	7000 3350 6900 3350
-Connection ~ 7100 3350
+	1950 5150 1850 5150
+Connection ~ 2050 5150
 Wire Wire Line
-	7100 3350 7000 3350
-Connection ~ 7200 3350
+	2050 5150 1950 5150
+Connection ~ 2150 5150
 Wire Wire Line
-	7200 3350 7100 3350
-Connection ~ 7300 3350
+	2150 5150 2050 5150
+Connection ~ 2250 5150
 Wire Wire Line
-	7300 3350 7200 3350
-Connection ~ 7400 3350
+	2250 5150 2150 5150
+Connection ~ 2350 5150
 Wire Wire Line
-	7400 3350 7300 3350
-Connection ~ 7500 3350
+	2350 5150 2250 5150
+Connection ~ 2450 5150
 Wire Wire Line
-	7500 3350 7400 3350
-Connection ~ 7600 3350
+	2450 5150 2350 5150
+Connection ~ 2550 5150
 Wire Wire Line
-	7600 3350 7500 3350
-Connection ~ 7700 3350
+	2550 5150 2450 5150
+Connection ~ 2650 5150
 Wire Wire Line
-	7700 3350 7600 3350
-Text GLabel 5850 3350 0    50   Input ~ 0
+	2650 5150 2550 5150
+Text GLabel 800  5150 0    50   Input ~ 0
 +3V
 Wire Wire Line
-	5850 3350 6100 3350
-Connection ~ 6100 3350
+	800  5150 1050 5150
+Connection ~ 1050 5150
 Wire Wire Line
 	7000 1400 7400 1400
 Wire Wire Line
@@ -461,9 +461,304 @@ U 1 1 5C6DC80E
 P 7400 1650
 F 0 "C?" H 7488 1696 50  0000 L CNN
 F 1 "470uF" H 7488 1605 50  0000 L CNN
-F 2 "" H 7400 1650 50  0001 C CNN
-F 3 "~" H 7400 1650 50  0001 C CNN
+F 2 "Maxted Libs:293D" H 7400 1650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/40002/293d.pdf" H 7400 1650 50  0001 C CNN
 	1    7400 1650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6E2462
+P 3900 5600
+F 0 "C?" H 3992 5646 50  0000 L CNN
+F 1 "10nF" H 3992 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3900 5600 50  0001 C CNN
+F 3 "~" H 3900 5600 50  0001 C CNN
+	1    3900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6E252E
+P 4250 5600
+F 0 "C?" H 4342 5646 50  0000 L CNN
+F 1 "10nF" H 4342 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 5600 50  0001 C CNN
+F 3 "~" H 4250 5600 50  0001 C CNN
+	1    4250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6E410B
+P 4600 5600
+F 0 "C?" H 4692 5646 50  0000 L CNN
+F 1 "10nF" H 4692 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4600 5600 50  0001 C CNN
+F 3 "~" H 4600 5600 50  0001 C CNN
+	1    4600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6E5CF2
+P 4950 5600
+F 0 "C?" H 5042 5646 50  0000 L CNN
+F 1 "10nF" H 5042 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 5600 50  0001 C CNN
+F 3 "~" H 4950 5600 50  0001 C CNN
+	1    4950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6E987A
+P 5300 5600
+F 0 "C?" H 5392 5646 50  0000 L CNN
+F 1 "10nF" H 5392 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5300 5600 50  0001 C CNN
+F 3 "~" H 5300 5600 50  0001 C CNN
+	1    5300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6E9881
+P 5650 5600
+F 0 "C?" H 5742 5646 50  0000 L CNN
+F 1 "10nF" H 5742 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5650 5600 50  0001 C CNN
+F 3 "~" H 5650 5600 50  0001 C CNN
+	1    5650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6E9888
+P 6000 5600
+F 0 "C?" H 6092 5646 50  0000 L CNN
+F 1 "10nF" H 6092 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6000 5600 50  0001 C CNN
+F 3 "~" H 6000 5600 50  0001 C CNN
+	1    6000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6E988F
+P 6350 5600
+F 0 "C?" H 6442 5646 50  0000 L CNN
+F 1 "10nF" H 6442 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 5600 50  0001 C CNN
+F 3 "~" H 6350 5600 50  0001 C CNN
+	1    6350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6EB70E
+P 6700 5600
+F 0 "C?" H 6792 5646 50  0000 L CNN
+F 1 "10nF" H 6792 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 5600 50  0001 C CNN
+F 3 "~" H 6700 5600 50  0001 C CNN
+	1    6700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6EB715
+P 7050 5600
+F 0 "C?" H 7142 5646 50  0000 L CNN
+F 1 "10nF" H 7142 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 5600 50  0001 C CNN
+F 3 "~" H 7050 5600 50  0001 C CNN
+	1    7050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6EB71C
+P 7400 5600
+F 0 "C?" H 7492 5646 50  0000 L CNN
+F 1 "10nF" H 7492 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 5600 50  0001 C CNN
+F 3 "~" H 7400 5600 50  0001 C CNN
+	1    7400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6EB723
+P 7750 5600
+F 0 "C?" H 7842 5646 50  0000 L CNN
+F 1 "10nF" H 7842 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7750 5600 50  0001 C CNN
+F 3 "~" H 7750 5600 50  0001 C CNN
+	1    7750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6EFCEC
+P 8100 5600
+F 0 "C?" H 8192 5646 50  0000 L CNN
+F 1 "10nF" H 8192 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8100 5600 50  0001 C CNN
+F 3 "~" H 8100 5600 50  0001 C CNN
+	1    8100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6EFCF3
+P 8450 5600
+F 0 "C?" H 8542 5646 50  0000 L CNN
+F 1 "10nF" H 8542 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 5600 50  0001 C CNN
+F 3 "~" H 8450 5600 50  0001 C CNN
+	1    8450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6EFCFA
+P 8800 5600
+F 0 "C?" H 8892 5646 50  0000 L CNN
+F 1 "10nF" H 8892 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 5600 50  0001 C CNN
+F 3 "~" H 8800 5600 50  0001 C CNN
+	1    8800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6EFD01
+P 9150 5600
+F 0 "C?" H 9242 5646 50  0000 L CNN
+F 1 "10nF" H 9242 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9150 5600 50  0001 C CNN
+F 3 "~" H 9150 5600 50  0001 C CNN
+	1    9150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C6F4431
+P 9500 5600
+F 0 "C?" H 9592 5646 50  0000 L CNN
+F 1 "10nF" H 9592 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 5600 50  0001 C CNN
+F 3 "~" H 9500 5600 50  0001 C CNN
+	1    9500 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5500 9150 5500
+Connection ~ 4250 5500
+Wire Wire Line
+	4250 5500 3900 5500
+Connection ~ 4600 5500
+Wire Wire Line
+	4600 5500 4250 5500
+Connection ~ 4950 5500
+Wire Wire Line
+	4950 5500 4600 5500
+Connection ~ 5300 5500
+Wire Wire Line
+	5300 5500 4950 5500
+Connection ~ 5650 5500
+Wire Wire Line
+	5650 5500 5300 5500
+Connection ~ 6000 5500
+Wire Wire Line
+	6000 5500 5650 5500
+Connection ~ 6350 5500
+Wire Wire Line
+	6350 5500 6000 5500
+Connection ~ 6700 5500
+Wire Wire Line
+	6700 5500 6350 5500
+Connection ~ 7050 5500
+Wire Wire Line
+	7050 5500 6700 5500
+Connection ~ 7400 5500
+Wire Wire Line
+	7400 5500 7050 5500
+Connection ~ 7750 5500
+Wire Wire Line
+	7750 5500 7400 5500
+Connection ~ 8100 5500
+Wire Wire Line
+	8100 5500 7750 5500
+Connection ~ 8450 5500
+Wire Wire Line
+	8450 5500 8100 5500
+Connection ~ 8800 5500
+Wire Wire Line
+	8800 5500 8450 5500
+Connection ~ 9150 5500
+Wire Wire Line
+	9150 5500 8800 5500
+Wire Wire Line
+	9500 5700 9150 5700
+Connection ~ 4250 5700
+Wire Wire Line
+	4250 5700 3900 5700
+Connection ~ 4600 5700
+Wire Wire Line
+	4600 5700 4250 5700
+Connection ~ 4950 5700
+Wire Wire Line
+	4950 5700 4600 5700
+Connection ~ 5300 5700
+Wire Wire Line
+	5300 5700 4950 5700
+Connection ~ 5650 5700
+Wire Wire Line
+	5650 5700 5300 5700
+Connection ~ 6000 5700
+Wire Wire Line
+	6000 5700 5650 5700
+Connection ~ 6350 5700
+Wire Wire Line
+	6350 5700 6000 5700
+Connection ~ 6700 5700
+Wire Wire Line
+	6700 5700 6350 5700
+Connection ~ 7050 5700
+Wire Wire Line
+	7050 5700 6700 5700
+Connection ~ 7400 5700
+Wire Wire Line
+	7400 5700 7050 5700
+Connection ~ 7750 5700
+Wire Wire Line
+	7750 5700 7400 5700
+Connection ~ 8100 5700
+Wire Wire Line
+	8100 5700 7750 5700
+Connection ~ 8450 5700
+Wire Wire Line
+	8450 5700 8100 5700
+Connection ~ 8800 5700
+Wire Wire Line
+	8800 5700 8450 5700
+Connection ~ 9150 5700
+Wire Wire Line
+	9150 5700 8800 5700
+Wire Wire Line
+	3900 5500 3900 5150
+Wire Wire Line
+	3900 5150 2750 5150
+Connection ~ 3900 5500
+Connection ~ 2750 5150
+Wire Wire Line
+	3900 5700 3900 6100
+Wire Wire Line
+	3900 6100 2600 6100
+Connection ~ 3900 5700
+Connection ~ 2600 6100
+Text Notes 4200 5350 0    50   ~ 0
+One Decoupling Cap per Vcc Pin.\nPlace physically as close to pin as possible
 $EndSCHEMATC
