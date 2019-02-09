@@ -115,8 +115,8 @@ L Maxted_Libs:TLV62569 U?
 U 1 1 5C666597
 P 3950 1650
 AR Path="/5C666597" Ref="U?"  Part="1" 
-AR Path="/5C656C49/5C666597" Ref="U2"  Part="1" 
-F 0 "U2" H 4000 2125 50  0000 C CNN
+AR Path="/5C656C49/5C666597" Ref="U1"  Part="1" 
+F 0 "U1" H 4000 2125 50  0000 C CNN
 F 1 "TLV62569" H 4000 2034 50  0000 C CNN
 F 2 "Maxted Libs:SOT23-6" H 3600 1350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 3600 1200 50  0001 C CNN
@@ -281,15 +281,15 @@ Connection ~ 5850 1400
 $Comp
 L Maxted_Libs:AP7365 U?
 U 1 1 5C6665F4
-P 6600 1500
+P 6600 1600
 AR Path="/5C6665F4" Ref="U?"  Part="1" 
-AR Path="/5C656C49/5C6665F4" Ref="U1"  Part="1" 
-F 0 "U1" H 6600 1800 50  0000 C CNN
-F 1 "AP7365" H 6600 1700 50  0000 C CNB
-F 2 "Maxted Libs:SOT-23-5" H 6600 950 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP7365.pdf" H 6650 850 50  0001 C CNN
-F 4 "https://www.digikey.co.nz/product-detail/en/diodes-incorporated/AP7365-WG-7/AP7365-WG-7DICT-ND/4505315" H 6600 1500 50  0001 C CNN "Supplier"
-	1    6600 1500
+AR Path="/5C656C49/5C6665F4" Ref="U2"  Part="1" 
+F 0 "U2" H 6450 1900 50  0000 C CNN
+F 1 "AP7365" H 6650 1900 50  0000 C CNB
+F 2 "Maxted Libs:SOT-23-5" H 6600 1050 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP7365.pdf" H 6650 950 50  0001 C CNN
+F 4 "https://www.digikey.co.nz/product-detail/en/diodes-incorporated/AP7365-WG-7/AP7365-WG-7DICT-ND/4505315" H 6600 1600 50  0001 C CNN "Supplier"
+	1    6600 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
