@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Maxted_Libs:10M02SCE144 U?
+L Maxted_Libs:10M02SCE144 U3
 U 2 1 5C67791D
 P 4350 3300
-F 0 "U?" H 4425 2678 50  0000 C CNN
+F 0 "U3" H 4425 2678 50  0000 C CNN
 F 1 "10M02SCE144" H 4425 2587 50  0000 C CNN
 F 2 "Maxted Libs:QFP-144_EPAD_20x20_Pitch0.5mm" H 5350 4100 50  0001 C CNN
 F 3 "" V 4700 3450 50  0001 C CNN
@@ -33,10 +33,10 @@ Wire Wire Line
 Text GLabel 4000 2450 0    50   Input ~ 0
 +3V
 $Comp
-L Device:R_Small R?
+L Device:R_Small R9
 U 1 1 5C68AD28
 P 5900 3700
-F 0 "R?" H 5959 3746 50  0000 L CNN
+F 0 "R9" H 5959 3746 50  0000 L CNN
 F 1 "1K" H 5959 3655 50  0000 L CNN
 F 2 "" H 5900 3700 50  0001 C CNN
 F 3 "~" H 5900 3700 50  0001 C CNN
@@ -44,10 +44,10 @@ F 3 "~" H 5900 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5C68ADAE
 P 5900 3800
-F 0 "#PWR?" H 5900 3550 50  0001 C CNN
+F 0 "#PWR08" H 5900 3550 50  0001 C CNN
 F 1 "GND" H 5905 3627 50  0000 C CNN
 F 2 "" H 5900 3800 50  0001 C CNN
 F 3 "" H 5900 3800 50  0001 C CNN
@@ -59,10 +59,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 3150 6150 3600
 $Comp
-L Device:R_Small R?
+L Device:R_Small R10
 U 1 1 5C692EE8
 P 6150 3700
-F 0 "R?" H 6209 3746 50  0000 L CNN
+F 0 "R10" H 6209 3746 50  0000 L CNN
 F 1 "1K" H 6209 3655 50  0000 L CNN
 F 2 "" H 6150 3700 50  0001 C CNN
 F 3 "~" H 6150 3700 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "~" H 6150 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 5C692FE7
 P 6150 3800
-F 0 "#PWR?" H 6150 3550 50  0001 C CNN
+F 0 "#PWR09" H 6150 3550 50  0001 C CNN
 F 1 "GND" H 6155 3627 50  0000 C CNN
 F 2 "" H 6150 3800 50  0001 C CNN
 F 3 "" H 6150 3800 50  0001 C CNN
@@ -83,10 +83,10 @@ $EndComp
 Wire Wire Line
 	6000 3250 6000 2900
 $Comp
-L Device:R_Small R?
+L Device:R_Small R3
 U 1 1 5C69923E
 P 6000 2800
-F 0 "R?" H 6059 2846 50  0000 L CNN
+F 0 "R3" H 6059 2846 50  0000 L CNN
 F 1 "1K" H 6059 2755 50  0000 L CNN
 F 2 "" H 6000 2800 50  0001 C CNN
 F 3 "~" H 6000 2800 50  0001 C CNN
@@ -94,10 +94,10 @@ F 3 "~" H 6000 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R4
 U 1 1 5C699292
 P 6300 2800
-F 0 "R?" H 6359 2846 50  0000 L CNN
+F 0 "R4" H 6359 2846 50  0000 L CNN
 F 1 "1K" H 6359 2755 50  0000 L CNN
 F 2 "" H 6300 2800 50  0001 C CNN
 F 3 "~" H 6300 2800 50  0001 C CNN
@@ -113,10 +113,10 @@ Wire Wire Line
 	6300 2700 6000 2700
 Connection ~ 6000 2700
 $Comp
-L Maxted_Libs:JTAG_HDR J?
+L Maxted_Libs:JTAG_HDR J2
 U 1 1 5C6A069B
 P 6700 3300
-F 0 "J?" H 6900 3650 50  0000 L CNN
+F 0 "J2" H 6900 3650 50  0000 L CNN
 F 1 "JTAG_HDR" H 6900 3500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6550 4200 50  0001 C CNN
 F 3 "" H 6550 4200 50  0001 C CNN
@@ -124,10 +124,10 @@ F 3 "" H 6550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5C6A0707
 P 6850 3750
-F 0 "#PWR?" H 6850 3500 50  0001 C CNN
+F 0 "#PWR07" H 6850 3500 50  0001 C CNN
 F 1 "GND" H 6855 3577 50  0000 C CNN
 F 2 "" H 6850 3750 50  0001 C CNN
 F 3 "" H 6850 3750 50  0001 C CNN
@@ -153,10 +153,10 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Notes Line style solid rgb(0, 0, 0)
 	7050 3700 7050 3200
 $Comp
-L Device:C_Small C?
+L Device:C_Small C23
 U 1 1 5C6B33C4
 P 5350 2550
-F 0 "C?" H 5442 2596 50  0000 L CNN
+F 0 "C23" H 5442 2596 50  0000 L CNN
 F 1 "10nF" H 5442 2505 50  0000 L CNN
 F 2 "" H 5350 2550 50  0001 C CNN
 F 3 "~" H 5350 2550 50  0001 C CNN
@@ -164,10 +164,10 @@ F 3 "~" H 5350 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5C6B34AA
 P 5700 2650
-F 0 "#PWR?" H 5700 2400 50  0001 C CNN
+F 0 "#PWR06" H 5700 2400 50  0001 C CNN
 F 1 "GND" H 5705 2477 50  0000 C CNN
 F 2 "" H 5700 2650 50  0001 C CNN
 F 3 "" H 5700 2650 50  0001 C CNN
@@ -197,10 +197,10 @@ Wire Wire Line
 Wire Wire Line
 	5350 3150 6150 3150
 $Comp
-L Device:C_Small C?
+L Device:C_Small C24
 U 1 1 5C6CAB44
 P 5700 2550
-F 0 "C?" H 5792 2596 50  0000 L CNN
+F 0 "C24" H 5792 2596 50  0000 L CNN
 F 1 "10nF" H 5792 2505 50  0000 L CNN
 F 2 "" H 5700 2550 50  0001 C CNN
 F 3 "~" H 5700 2550 50  0001 C CNN
@@ -219,10 +219,10 @@ Connection ~ 5700 2650
 Text Notes 4550 2300 0    50   ~ 0
 One decoupling cap per Vcc_IO pin.
 $Comp
-L Connector:Conn_01x03_Female J?
+L Connector:Conn_01x03_Female J3
 U 1 1 5C9FC99B
 P 6600 4850
-F 0 "J?" H 6627 4876 50  0000 L CNN
+F 0 "J3" H 6627 4876 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 6300 5100 50  0000 L CNN
 F 2 "Connector_Harwin:Harwin_M20-89003xx_1x03_P2.54mm_Horizontal" H 6600 4850 50  0001 C CNN
 F 3 "~" H 6600 4850 50  0001 C CNN
@@ -230,10 +230,10 @@ F 3 "~" H 6600 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5C9FCB4B
 P 6400 4950
-F 0 "#PWR?" H 6400 4700 50  0001 C CNN
+F 0 "#PWR010" H 6400 4700 50  0001 C CNN
 F 1 "GND" H 6405 4777 50  0000 C CNN
 F 2 "" H 6400 4950 50  0001 C CNN
 F 3 "" H 6400 4950 50  0001 C CNN
@@ -267,10 +267,10 @@ Wire Notes Line style solid rgb(0, 0, 0)
 NoConn ~ 5350 3550
 NoConn ~ 5350 3450
 $Comp
-L Maxted_Libs:Switch_Momentary SW?
+L Maxted_Libs:Switch_Momentary SW1
 U 1 1 5CA00362
 P 1850 5100
-F 0 "SW?" H 1800 5250 50  0000 L CNN
+F 0 "SW1" H 1800 5250 50  0000 L CNN
 F 1 "Switch_Momentary" H 1750 5250 50  0001 L CNN
 F 2 "Maxted Libs:Switch_Momentary" H 1600 4950 50  0001 C CNN
 F 3 "" H 1800 5100 50  0001 C CNN
@@ -278,10 +278,10 @@ F 3 "" H 1800 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Maxted_Libs:Switch_Momentary SW?
+L Maxted_Libs:Switch_Momentary SW2
 U 1 1 5CA005C3
 P 2300 5100
-F 0 "SW?" H 2250 5250 50  0000 L CNN
+F 0 "SW2" H 2250 5250 50  0000 L CNN
 F 1 "Switch_Momentary" H 2200 5250 50  0001 L CNN
 F 2 "Maxted Libs:Switch_Momentary" H 2050 4950 50  0001 C CNN
 F 3 "" H 2250 5100 50  0001 C CNN
@@ -289,10 +289,10 @@ F 3 "" H 2250 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Maxted_Libs:Switch_Momentary SW?
+L Maxted_Libs:Switch_Momentary SW3
 U 1 1 5CA009D6
 P 2750 5100
-F 0 "SW?" H 2700 5250 50  0000 L CNN
+F 0 "SW3" H 2700 5250 50  0000 L CNN
 F 1 "Switch_Momentary" H 2650 5250 50  0001 L CNN
 F 2 "Maxted Libs:Switch_Momentary" H 2500 4950 50  0001 C CNN
 F 3 "" H 2700 5100 50  0001 C CNN
@@ -300,10 +300,10 @@ F 3 "" H 2700 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Maxted_Libs:Switch_Momentary SW?
+L Maxted_Libs:Switch_Momentary SW4
 U 1 1 5CA00DE5
 P 3150 5100
-F 0 "SW?" H 3100 5250 50  0000 L CNN
+F 0 "SW4" H 3100 5250 50  0000 L CNN
 F 1 "Switch_Momentary" H 3050 5250 50  0001 L CNN
 F 2 "Maxted Libs:Switch_Momentary" H 2900 4950 50  0001 C CNN
 F 3 "" H 3100 5100 50  0001 C CNN
@@ -373,10 +373,10 @@ Connection ~ 3050 5200
 Wire Wire Line
 	3050 5200 2900 5200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 5CA05B6C
 P 1750 5200
-F 0 "#PWR?" H 1750 4950 50  0001 C CNN
+F 0 "#PWR011" H 1750 4950 50  0001 C CNN
 F 1 "GND" H 1755 5027 50  0000 C CNN
 F 2 "" H 1750 5200 50  0001 C CNN
 F 3 "" H 1750 5200 50  0001 C CNN
@@ -395,10 +395,10 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Notes Line style solid rgb(0, 0, 0)
 	1700 5750 1700 5450
 $Comp
-L Device:R_Small R?
+L Device:R_Small R8
 U 1 1 5CA06FA7
 P 3150 3100
-F 0 "R?" H 3209 3146 50  0000 L CNN
+F 0 "R8" H 3209 3146 50  0000 L CNN
 F 1 "1K" H 3209 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3150 3100 50  0001 C CNN
 F 3 "~" H 3150 3100 50  0001 C CNN
@@ -406,10 +406,10 @@ F 3 "~" H 3150 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R7
 U 1 1 5CA0718A
 P 2750 3100
-F 0 "R?" H 2809 3146 50  0000 L CNN
+F 0 "R7" H 2809 3146 50  0000 L CNN
 F 1 "1K" H 2809 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2750 3100 50  0001 C CNN
 F 3 "~" H 2750 3100 50  0001 C CNN
@@ -417,10 +417,10 @@ F 3 "~" H 2750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R6
 U 1 1 5CA081C0
 P 2300 3100
-F 0 "R?" H 2359 3146 50  0000 L CNN
+F 0 "R6" H 2359 3146 50  0000 L CNN
 F 1 "1K" H 2359 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 3100 50  0001 C CNN
 F 3 "~" H 2300 3100 50  0001 C CNN
@@ -428,10 +428,10 @@ F 3 "~" H 2300 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R5
 U 1 1 5CA09200
 P 1850 3100
-F 0 "R?" H 1909 3146 50  0000 L CNN
+F 0 "R5" H 1909 3146 50  0000 L CNN
 F 1 "1K" H 1909 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 3100 50  0001 C CNN
 F 3 "~" H 1850 3100 50  0001 C CNN
@@ -473,4 +473,10 @@ Wire Wire Line
 	2750 3000 2300 3000
 Text GLabel 1550 3000 0    50   Input ~ 0
 +3V
+NoConn ~ 3500 2950
+NoConn ~ 3500 3050
+NoConn ~ 3500 3150
+NoConn ~ 3500 3250
+NoConn ~ 5350 2850
+NoConn ~ 5350 2950
 $EndSCHEMATC
