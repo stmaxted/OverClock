@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 5)
-    (tracks 224)
+    (tracks 217)
     (zones 0)
     (modules 123)
     (nets 162)
@@ -4945,13 +4945,6 @@
   (gr_line (start 100 0) (end 100 100) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 0 0) (end 100 0) (layer Edge.Cuts) (width 0.15))
 
-  (via (at 221.05 26.85) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70AE) (status 40000))
-  (via (at 221.05 26.05) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70B0) (status 40000))
-  (via (at 216.25 30.05) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70AE) (status 40000))
-  (via (at 217.05 30.05) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70AF) (status 40000))
-  (via (at 215.45 30.05) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70B0) (status 40000))
-  (via (at 220.05 27.85) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70AE) (status 40000))
-  (via (at 219.25 27.85) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70B0) (status 40000))
   (via (at 214.45 28.45) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70AE) (status 40000))
   (via (at 214.45 29.25) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70AF) (status 40000))
   (via (at 214.45 27.65) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 5C6C70B0) (status 40000))
