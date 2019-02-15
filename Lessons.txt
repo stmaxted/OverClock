@@ -1,0 +1,12 @@
+Lessons learned during the course of this project:
+  -Vref pins (alternate mode of certain pins) are tied to a voltage consisting of half of a logic 1 within highspeed differential signaling. This is so the FPGA can easily distinguish between logic 1 and logic 0
+  - Installing Quartus requires a few steps:
+    - Install Zlib (sudo apt install zlib1g-dev)
+    - Build Libpng:
+      - Download Libpng (https://sourceforge.net/projects/libpng/files/libpng12/)
+      - Extract to /tmp
+      - cd /tmp/libpng-*
+      - ./configure --prefix=/usr/local
+      - make
+      - sudo make install
+      - sudo ldconfig
