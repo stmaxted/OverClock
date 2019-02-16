@@ -38,7 +38,7 @@ U 1 1 5C68AD28
 P 5500 2600
 F 0 "R5" H 5559 2646 50  0000 L CNN
 F 1 "1K" H 5559 2555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5500 2600 50  0001 C CNN
 F 3 "~" H 5500 2600 50  0001 C CNN
 	1    5500 2600
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5C692EE8
 P 5750 2600
 F 0 "R6" H 5809 2646 50  0000 L CNN
 F 1 "1K" H 5809 2555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 2600 50  0001 C CNN
 F 3 "~" H 5750 2600 50  0001 C CNN
 	1    5750 2600
 	1    0    0    -1  
@@ -88,7 +88,7 @@ U 1 1 5C69923E
 P 5600 1700
 F 0 "R3" H 5659 1746 50  0000 L CNN
 F 1 "1K" H 5659 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 1700 50  0001 C CNN
 F 3 "~" H 5600 1700 50  0001 C CNN
 	1    5600 1700
 	1    0    0    -1  
@@ -99,7 +99,7 @@ U 1 1 5C699292
 P 5900 1700
 F 0 "R4" H 5959 1746 50  0000 L CNN
 F 1 "1K" H 5959 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 1700 50  0001 C CNN
 F 3 "~" H 5900 1700 50  0001 C CNN
 	1    5900 1700
 	1    0    0    -1  
@@ -467,13 +467,13 @@ Text Label 5200 2150 0    50   ~ 0
 TDI
 Text Label 5200 2250 0    50   ~ 0
 TDO
-Text Label 5300 5350 2    50   ~ 0
-H+
-Text Label 5300 5450 2    50   ~ 0
-H-
-Text Label 5300 5550 2    50   ~ 0
-M+
 Text Label 5300 5650 2    50   ~ 0
+H+
+Text Label 5300 5550 2    50   ~ 0
+H-
+Text Label 5300 5450 2    50   ~ 0
+M+
+Text Label 5300 5350 2    50   ~ 0
 M-
 $Comp
 L Device:C_Small C25
