@@ -467,13 +467,13 @@ Text Label 5200 2150 0    50   ~ 0
 TDI
 Text Label 5200 2250 0    50   ~ 0
 TDO
-Text Label 5300 5350 2    50   ~ 0
-H+
-Text Label 5300 5450 2    50   ~ 0
-H-
-Text Label 5300 5550 2    50   ~ 0
-M+
 Text Label 5300 5650 2    50   ~ 0
+H+
+Text Label 5300 5550 2    50   ~ 0
+H-
+Text Label 5300 5450 2    50   ~ 0
+M+
+Text Label 5300 5350 2    50   ~ 0
 M-
 $Comp
 L Device:C_Small C25

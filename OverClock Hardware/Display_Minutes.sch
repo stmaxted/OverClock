@@ -319,38 +319,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 4350 14600 4350
 Wire Wire Line
-	10400 4550 10400 5000
+	12600 4550 12600 5000
 Wire Wire Line
-	10400 5000 9800 5000
-Connection ~ 10400 4550
+	13700 4550 13700 5200
 Wire Wire Line
-	10950 4550 10950 5100
-Wire Wire Line
-	10950 5100 9800 5100
-Wire Wire Line
-	11500 4550 11500 5200
-Wire Wire Line
-	11500 5200 9800 5200
-Wire Wire Line
-	12050 4550 12050 5300
-Wire Wire Line
-	12050 5300 9800 5300
-Wire Wire Line
-	12600 4550 12600 5400
-Wire Wire Line
-	12600 5400 9800 5400
-Wire Wire Line
-	13150 4550 13150 5500
-Wire Wire Line
-	13150 5500 9800 5500
-Wire Wire Line
-	13700 4550 13700 5600
-Wire Wire Line
-	13700 5600 9800 5600
-Wire Wire Line
-	14300 4550 14300 5700
-Wire Wire Line
-	14300 5700 9800 5700
+	14300 4550 14300 5300
 Wire Wire Line
 	14600 4000 14600 4350
 Wire Wire Line
@@ -382,7 +355,6 @@ F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3
 	1    10600 4550
 	1    0    0    -1  
 $EndComp
-Connection ~ 10950 4550
 Connection ~ 11250 4350
 $Comp
 L Device:Q_PMOS_GSD Q?
@@ -468,9 +440,7 @@ F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=22747&prodName=SSM3
 	1    14500 4550
 	1    0    0    -1  
 $EndComp
-Connection ~ 11500 4550
 Connection ~ 11800 4350
-Connection ~ 12050 4550
 Connection ~ 12350 4350
 Connection ~ 12600 4550
 Connection ~ 12900 4350
@@ -906,17 +876,6 @@ Connection ~ 6200 4400
 Connection ~ 6750 4400
 Connection ~ 7300 4400
 Connection ~ 7900 4400
-$Comp
-L Maxted_Libs:10M02SCE144 U3
-U 4 1 5CA1D5E4
-P 8950 5600
-F 0 "U3" H 8975 4828 50  0000 C CNN
-F 1 "10M02SCE144" H 8975 4737 50  0000 C CNN
-F 2 "Maxted Libs:QFP-144_EPAD_20x20_Pitch0.5mm" H 9950 6400 50  0001 C CNN
-F 3 "" V 9300 5750 50  0001 C CNN
-	4    8950 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 4600 7600 5050
 Wire Wire Line
@@ -957,29 +916,37 @@ Wire Wire Line
 Wire Wire Line
 	3700 5750 8150 5750
 Connection ~ 3700 4600
-NoConn ~ 8150 5850
-NoConn ~ 8150 5950
-NoConn ~ 8150 6050
-NoConn ~ 8150 6150
-NoConn ~ 9800 5800
-NoConn ~ 9800 5900
-NoConn ~ 9800 6000
-NoConn ~ 9800 6100
-NoConn ~ 9800 6200
-Wire Wire Line
-	9050 4600 8950 4600
-Connection ~ 8950 4600
-Wire Wire Line
-	8950 4600 8850 4600
+Text GLabel 8600 4250 0    50   Input ~ 0
++3V
 $Comp
-L Device:C_Small C32
-U 1 1 5CB8F75B
-P 9500 4350
-F 0 "C32" H 9592 4396 50  0000 L CNN
-F 1 "10nF" H 9550 4300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 4350 50  0001 C CNN
-F 3 "~" H 9500 4350 50  0001 C CNN
-	1    9500 4350
+L power:GND #PWR021
+U 1 1 5CBB2B7C
+P 9200 4450
+F 0 "#PWR021" H 9200 4200 50  0001 C CNN
+F 1 "GND" H 9205 4277 50  0000 C CNN
+F 2 "" H 9200 4450 50  0001 C CNN
+F 3 "" H 9200 4450 50  0001 C CNN
+	1    9200 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4250 8850 4250
+Connection ~ 8850 4250
+Wire Wire Line
+	8850 4250 8850 4600
+Connection ~ 9200 4450
+Wire Wire Line
+	9200 4250 8850 4250
+Connection ~ 9200 4250
+$Comp
+L Device:C_Small C31
+U 1 1 5CB98270
+P 9200 4350
+F 0 "C31" H 9292 4396 50  0000 L CNN
+F 1 "10nF" H 9250 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9200 4350 50  0001 C CNN
+F 3 "~" H 9200 4350 50  0001 C CNN
+	1    9200 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -993,48 +960,81 @@ F 3 "~" H 9800 4350 50  0001 C CNN
 	1    9800 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C31
-U 1 1 5CB98270
-P 9200 4350
-F 0 "C31" H 9292 4396 50  0000 L CNN
-F 1 "10nF" H 9250 4300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9200 4350 50  0001 C CNN
-F 3 "~" H 9200 4350 50  0001 C CNN
-	1    9200 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9800 4250 9500 4250
-Wire Wire Line
-	8850 4250 8850 4600
-Connection ~ 9200 4250
-Wire Wire Line
-	9200 4250 8850 4250
-Connection ~ 9500 4250
-Wire Wire Line
-	9500 4250 9200 4250
-Connection ~ 8850 4600
+	9500 4450 9200 4450
 Wire Wire Line
 	9800 4450 9500 4450
 Connection ~ 9500 4450
 Wire Wire Line
-	9500 4450 9200 4450
+	9500 4250 9200 4250
+Wire Wire Line
+	9800 4250 9500 4250
+Connection ~ 9500 4250
 $Comp
-L power:GND #PWR021
-U 1 1 5CBB2B7C
-P 9200 4450
-F 0 "#PWR021" H 9200 4200 50  0001 C CNN
-F 1 "GND" H 9205 4277 50  0000 C CNN
-F 2 "" H 9200 4450 50  0001 C CNN
-F 3 "" H 9200 4450 50  0001 C CNN
-	1    9200 4450
+L Device:C_Small C32
+U 1 1 5CB8F75B
+P 9500 4350
+F 0 "C32" H 9592 4396 50  0000 L CNN
+F 1 "10nF" H 9550 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 4350 50  0001 C CNN
+F 3 "~" H 9500 4350 50  0001 C CNN
+	1    9500 4350
 	1    0    0    -1  
 $EndComp
-Connection ~ 9200 4450
-Text GLabel 8600 4250 0    50   Input ~ 0
-+3V
+NoConn ~ 9800 6200
+NoConn ~ 9800 6100
+NoConn ~ 9800 6000
+NoConn ~ 9800 5900
+NoConn ~ 9800 5800
+NoConn ~ 8150 6150
+NoConn ~ 8150 6050
+NoConn ~ 8150 5950
+NoConn ~ 8150 5850
+Connection ~ 8850 4600
 Wire Wire Line
-	8600 4250 8850 4250
-Connection ~ 8850 4250
+	8950 4600 8850 4600
+Wire Wire Line
+	9050 4600 8950 4600
+Connection ~ 8950 4600
+$Comp
+L Maxted_Libs:10M02SCE144 U3
+U 4 1 5CA1D5E4
+P 8950 5600
+F 0 "U3" H 8975 4828 50  0000 C CNN
+F 1 "10M02SCE144" H 8975 4737 50  0000 C CNN
+F 2 "Maxted Libs:QFP-144_EPAD_20x20_Pitch0.5mm" H 9950 6400 50  0001 C CNN
+F 3 "" V 9300 5750 50  0001 C CNN
+	4    8950 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 5000 12600 5000
+Wire Wire Line
+	9800 5100 13150 5100
+Wire Wire Line
+	13150 4550 13150 5100
+Wire Wire Line
+	9800 5200 13700 5200
+Wire Wire Line
+	9800 5300 14300 5300
+Wire Wire Line
+	12050 4550 12050 5700
+Wire Wire Line
+	12050 5700 9800 5700
+Connection ~ 12050 4550
+Wire Wire Line
+	11500 4550 11500 5600
+Wire Wire Line
+	11500 5600 9800 5600
+Connection ~ 11500 4550
+Wire Wire Line
+	10950 4550 10950 5500
+Wire Wire Line
+	10950 5500 9800 5500
+Connection ~ 10950 4550
+Wire Wire Line
+	10400 4550 10400 5400
+Wire Wire Line
+	10400 5400 9800 5400
+Connection ~ 10400 4550
 $EndSCHEMATC
