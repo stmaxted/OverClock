@@ -1,0 +1,35 @@
+|Overclock
+m_inc => ~NO_FANOUT~
+m_dec => ~NO_FANOUT~
+h_inc => ~NO_FANOUT~
+h_dec => ~NO_FANOUT~
+mins_10s[0] <= mins_10s[0].DB_MAX_OUTPUT_PORT_TYPE
+mins_10s[1] <= mins_10s[1].DB_MAX_OUTPUT_PORT_TYPE
+mins_10s[2] <= mins_10s[2].DB_MAX_OUTPUT_PORT_TYPE
+mins_10s[3] <= mins_10s[3].DB_MAX_OUTPUT_PORT_TYPE
+mins_10s[4] <= mins_10s[4].DB_MAX_OUTPUT_PORT_TYPE
+mins_10s[5] <= mins_10s[5].DB_MAX_OUTPUT_PORT_TYPE
+mins_10s[6] <= mins_10s[6].DB_MAX_OUTPUT_PORT_TYPE
+mins_1s[0] <= mins_1s[0].DB_MAX_OUTPUT_PORT_TYPE
+mins_1s[1] <= mins_1s[1].DB_MAX_OUTPUT_PORT_TYPE
+mins_1s[2] <= mins_1s[2].DB_MAX_OUTPUT_PORT_TYPE
+mins_1s[3] <= mins_1s[3].DB_MAX_OUTPUT_PORT_TYPE
+mins_1s[4] <= mins_1s[4].DB_MAX_OUTPUT_PORT_TYPE
+mins_1s[5] <= mins_1s[5].DB_MAX_OUTPUT_PORT_TYPE
+mins_1s[6] <= mins_1s[6].DB_MAX_OUTPUT_PORT_TYPE
+hours_10s[0] <= hours_10s[0].DB_MAX_OUTPUT_PORT_TYPE
+hours_10s[1] <= hours_10s[1].DB_MAX_OUTPUT_PORT_TYPE
+hours_10s[2] <= hours_10s[2].DB_MAX_OUTPUT_PORT_TYPE
+hours_10s[3] <= hours_10s[3].DB_MAX_OUTPUT_PORT_TYPE
+hours_10s[4] <= hours_10s[4].DB_MAX_OUTPUT_PORT_TYPE
+hours_10s[5] <= hours_10s[5].DB_MAX_OUTPUT_PORT_TYPE
+hours_10s[6] <= hours_10s[6].DB_MAX_OUTPUT_PORT_TYPE
+hours_1s[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+hours_1s[1] <= hours_1s[1].DB_MAX_OUTPUT_PORT_TYPE
+hours_1s[2] <= hours_1s[2].DB_MAX_OUTPUT_PORT_TYPE
+hours_1s[3] <= hours_1s[3].DB_MAX_OUTPUT_PORT_TYPE
+hours_1s[4] <= hours_1s[4].DB_MAX_OUTPUT_PORT_TYPE
+hours_1s[5] <= hours_1s[5].DB_MAX_OUTPUT_PORT_TYPE
+hours_1s[6] <= hours_1s[6].DB_MAX_OUTPUT_PORT_TYPE
+
+

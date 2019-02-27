@@ -1,0 +1,30 @@
+library IEEE;
+using IEEE.std_logic_1164.all;
+using IEEE.numeric_std.all;
+
+--sevenSegDecoder takes in an character and decodes the character into a std_logic_vector corresponding to the control signals of a seven
+-- segment display. This is an 8 line bus defining the status of the signal in the format: "A,B,C,D,E,F,G"
+-- Segments are active low.
+--			  -A
+--		 F	/  / B
+--		G	 -
+--	  E /  / C
+--		  - D 
+ 
+
+entity sevenSegDecoder is
+port( x in : character; y out : std_logic_vector(6 downto 0));
+end entity sevenSegDecoder;
+
+architecture decode of sevenSegDecoder is
+
+begin
+
+	with x select
+	x <= "0000001" when 0, --0
+		"1001111" when 1,
+		"0010010" when 2,
+
+end architecture decode;
+
+

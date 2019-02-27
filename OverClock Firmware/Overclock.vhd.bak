@@ -1,0 +1,16 @@
+library IEEE;
+using IEEE.std_logic_1164.all;
+using IEEE.numeric_std.all;
+
+entity Overclock is
+
+begin
+
+end entity Overclock;
+
+architecture time of Overclock is
+
+begin
+
+end architecture time;
+
