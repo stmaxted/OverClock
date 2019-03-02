@@ -1,0 +1,29 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "/home/stmaxted/Documents/OverClock/OverClock Firmware/InternalOsciallator.qsys" --block-symbol-file --output-directory="/home/stmaxted/Documents/OverClock/OverClock Firmware/InternalOsciallator" --family="MAX 10" --part=10M02SCE144C8G
+Progress: Loading OverClock Firmware/InternalOsciallator.qsys
+Progress: Reading input file
+Progress: Adding int_osc_0 [altera_int_osc 18.1]
+Progress: Parameterizing module int_osc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "/home/stmaxted/Documents/OverClock/OverClock Firmware/InternalOsciallator.qsys" --synthesis=VHDL --output-directory="/home/stmaxted/Documents/OverClock/OverClock Firmware/InternalOsciallator/synthesis" --family="MAX 10" --part=10M02SCE144C8G
+Progress: Loading OverClock Firmware/InternalOsciallator.qsys
+Progress: Reading input file
+Progress: Adding int_osc_0 [altera_int_osc 18.1]
+Progress: Parameterizing module int_osc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: InternalOsciallator: Generating InternalOsciallator "InternalOsciallator" for QUARTUS_SYNTH
+Info: int_osc_0: Generating top-level entity altera_int_osc.
+Info: int_osc_0: "InternalOsciallator" instantiated altera_int_osc "int_osc_0"
+Info: InternalOsciallator: Done "InternalOsciallator" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
